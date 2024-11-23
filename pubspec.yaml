@@ -1,0 +1,104 @@
+name: airbnb_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_snack_bar: ^0.4.0
+  cupertino_icons: ^1.0.6
+  dio: ^5.5.0+1
+  firebase_core: ^3.2.0
+  firebase_messaging: ^15.0.3
+  flutter_local_notifications: ^17.2.1+1
+  flutter_secure_storage: ^9.2.2
+  flutter_svg: ^2.0.10+1
+  get: ^4.6.6
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  otp_text_field: ^1.1.3
+  shimmer: ^3.0.0
+  country_code_picker: ^3.0.0
+  pinput: ^5.0.0
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.2.0
+  csc_picker: ^0.2.7
+  cached_network_image: ^3.3.1
+  image: ^4.1.3
+  image_picker: ^1.1.2
+  dotted_border: ^2.1.0
+  flutter_advanced_switch: ^3.1.0
+  freezed_annotation: ^2.4.4
+  dots_indicator: ^3.0.0
+  percent_indicator: ^4.2.3
+  flutter_animate: ^4.5.0
+   
+ 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/icons/line/
+    - assets/icons/solid/
+
+fonts:
+    - family: Zilla Slab
+      fonts:
+        - asset: assets/fonts/ZillaSlab-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/SFProDisplay-BoldItalic.ttf
+          weight: 700
+        - asset: assets/fonts/ZillaSlab-Light.ttf
+          weight: 300
+        - asset: assets/fonts/ZillaSlab-Italic.ttf
+          style: italic
+        - asset: asets/fonts/ZillaSlab-LightItalic.ttf
+          weight: 300
+        - asset: assets/fonts/ZillaSlab-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/ZillaSlab-MediumItalic.ttf
+          weight: 500
+        - asset: assets/fonts/ZillaSlab-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/ZillaSlab-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/ZillaSlab-SemiBoldItalic.ttf
+          weight: 600
+
+    - family: Clash Display
+      fonts:
+        - asset: assets/fonts/ClashDisplay-Variable.ttf
+          weight: 500
+
+    - family: Geist
+      fonts:
+        - asset: assets/fonts/GeistVF-BF6569491f13184.ttf
+          weight: 100
+        - asset: assets/fonts/Geist-Bold-BF6569491da5a14.otf
+          weight: 700
+        - asset: assets/fonts/Geist-Light-BF6569491dc9c01.otf
+          weight: 300 
+        - asset: assets/fonts/Geist-Medium-BF6569491e1c281.otf
+          weight: 500 
+        - asset: assets/fonts/Geist-Regular-BF6569491e3eff1.otf
+          weight: 400
+        - asset: assets/fonts/Geist-SemiBold-BF6569491e8c368.otf
+          weight: 600
+  
+         
+
+      
